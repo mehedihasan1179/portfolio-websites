@@ -16,10 +16,10 @@
             <img src="./images/profile.jpg" alt="profile photo">
             <h1>Mehedi Hasan</h1>
             <div class="social-icons">
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://web.facebook.com/mehedihasan.1713/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/milon.virus/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/MehediHasa6688" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/mehedi-hasan-9a2190335/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </div>
          </div>
 
@@ -326,6 +326,7 @@
                  </div>
 
                  <!-- portfolio item-4 -->
+
                  <div class="port-item">
                     <div class="port-img">
                         <img src="./images/password_manager.png" alt="">
@@ -504,7 +505,7 @@
                         <input type="email" name="email" id="email" placeholder="Your Email" required>
                         <input type="text" name="subject" id="subject" placeholder="Subject">
                         <textarea name="msg" id="msg" rows="9" placeholder="Your Message" required></textarea>
-                        <input type="submit" value=" Send Message">
+                        <button id="send-button">Send Message</button>
                     </form>
 
                  </div>
@@ -524,8 +525,20 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
     <!-- smtp js link -->
-    <script src="https://smtpjs.com/v3/smtp.js">
+    <!-- <script src="https://smtpjs.com/v3/smtp.js">
+    </script> -->
+
+    <!-- emailjs script tag -->
+     <script type="text/javascript">
+            (function(){
+            emailjs.init({
+            publicKey: "0bYukGzmadOaTcC3e",
+            });
+            })();
     </script>
+    <script type="text/javascript"     src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        
 
     <!-- main js file -->
     <script src="index.js"></script>
